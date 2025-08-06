@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Homepage Design — Projeto Autoral por Mikael Kobama
 
-## Getting Started
+Este projeto representa uma proposta de **homepage institucional moderna**, ideal para empresas, produtos ou profissionais que desejam uma presença digital impactante. Construído com **Next.js 13+ (App Router)** e **Tailwind CSS**, o design prioriza **responsividade, performance e estética limpa**.
 
-First, run the development server:
+---
+
+## ✨ Objetivo
+
+O objetivo desta homepage é servir como **template base** para aplicações reais, destacando:
+
+- 🧠 Arquitetura moderna com App Router do Next.js
+- 🎨 Design minimalista e adaptável a diferentes identidades visuais
+- ⚡ Performance otimizada com carregamento inteligente de fontes e imagens
+- 🧩 Componentização reutilizável e bem estruturada
+- 📱 Responsividade total (mobile-first)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia       | Descrição                                |
+| ---------------- | ---------------------------------------- |
+| **Next.js**      | Framework React com renderização híbrida |
+| **React**        | Biblioteca para criação de interfaces    |
+| **TypeScript**   | Superset de JavaScript tipado            |
+| **Tailwind CSS** | Framework utilitário de estilos          |
+| **ESLint**       | Padronização de código                   |
+| **Prettier**     | Formatação automática de código          |
+
+---
+
+## 🧭 Estrutura do Projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+app/
+ ┣ components/         # Componentes reutilizáveis (Hero, Navbar, Footer, etc.)
+ ┣ styles/             # Estilos globais com Tailwind
+ ┣ page.tsx            # Página principal da aplicação
+ ┗ layout.tsx          # Layout base compartilhado
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
